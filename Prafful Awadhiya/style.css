@@ -112,12 +112,12 @@ nav ul li a:hover{
 .resume-button a{
     align-items: center;
     text-decoration: none;
-    color: #1b0707;
+    color: green;
     font-weight: 600;
 }
 
 .resume-button a:hover{
-    color: rgb(185, 83, 72);
+    color: white;
 }
 
 .resume-button{
@@ -144,7 +144,7 @@ nav ul li a:hover{
 }
 
 .about-button a:hover{
-    color: rgb(185, 83, 72);
+    color: white;
 
 }
 
