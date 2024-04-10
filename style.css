@@ -167,7 +167,8 @@ nav ul li a:hover{
 }
 
 main hr{
-    margin: 5vh 6vh 5vh 6vh;
+    margin: 5vh 2vw 5vh 2vw;
+    border: 1px solid black;
 }
 
 .contact-me{
@@ -276,9 +277,10 @@ main hr{
 
 .work-title{
     display: flex;
-    margin: 5vh;
+    margin: 10vh 5vh 5vh 5vh;
     align-items: center;
-    color: rgb(193, 87, 21);
+    /* color: rgb(193, 87, 21); */
+    color: black;
 }
 
 .work-container{
@@ -310,13 +312,27 @@ main hr{
     font-size: 1rem;
 }
 
+.project-button{
+    display: inline-block;
+    margin-top : 5vh;
+    padding: 1vh 1vw;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+}
+
+.project-button a:hover{
+    color: orange;
+}
+
 .wc1-img-resp,.wc2-img-resp{
     display: none;
 }
 
 .wc1-description a,.wc2-description a{
     font-size: 1.1rem;
-    color: rgb(212, 32, 32);
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
