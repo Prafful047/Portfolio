@@ -12,7 +12,9 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 15vh;
-    border-bottom: 0.1rem solid rgb(64, 60, 60)
+    border-bottom: 0.1rem solid rgb(64, 60, 60);
+    background-color: #1b0707;
+    color: white;
 }
 
 nav ul{
@@ -24,14 +26,14 @@ nav ul li{
     list-style: none;
     margin: 2em;
     font-weight: 600;
-    color: rgb(98, 96, 96);
+    color: white;
     
 }
 
 nav ul li a{
     text-decoration: none;
     font-weight: 600;
-    color: rgb(98, 96, 96);
+    color: white;
     
 }
 
@@ -42,12 +44,11 @@ nav ul li a:hover{
 
 .left a{
     text-decoration: none;
-    color: rgb(46, 40, 40);
+    color: white;
 }
 
 .left a:hover{
-    /* color: rgb(189, 57, 43); */
-    color: rgb(83, 83, 194);
+    color: orange;
 
 }
 
@@ -68,6 +69,7 @@ nav ul li a:hover{
 
 .firstsection{
     display: flex;
+    /* background-color: rgb(131, 131, 216); */
     justify-content: center;
     margin: 3vh 0 ; 
 }
@@ -112,12 +114,12 @@ nav ul li a:hover{
 .resume-button a{
     align-items: center;
     text-decoration: none;
-    color: #1b0707;
+    color: white;
     font-weight: 600;
 }
 
 .resume-button a:hover{
-    color: white;
+    color: orange;
     
 }
 
@@ -126,7 +128,7 @@ nav ul li a:hover{
     margin-top: 5vh;
   display: inline-block;
   padding: 10px 20px;
-  background-color: #8594a4;
+  background-color: black;
   color: #e15b5b;
   font-size: 1rem;
   text-align: center;
@@ -140,12 +142,12 @@ nav ul li a:hover{
 .about-button a{
     align-items: center;
     text-decoration: none;
-    color: #1b0707;
+    color: white;
     font-weight: 600;
 }
 
 .about-button a:hover{
-    color: white;
+    color: orange;
 
 }
 
@@ -153,8 +155,8 @@ nav ul li a:hover{
     margin-top: 5vh;
   display: inline-block;
   padding: 10px 20px;
-  background-color: #8594a4;
-  color: #e15b5b;
+  background-color: black;
+  /* color: #e15b5b; */
   font-size: 1rem;
   text-align: center;
   border-radius: 5px;
