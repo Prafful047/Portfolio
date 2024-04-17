@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: aqua;
 }
 
 nav{
@@ -81,6 +82,7 @@ nav ul li a:hover{
 .leftSection img{
     width: 80%;
     margin-top: 5vh;
+    mix-blend-mode: multiply;
     
 }
 
@@ -216,6 +218,7 @@ main hr{
 
 .a-firstSection{
     display : flex;
+    background-color: #e08181;
     
 }
 
@@ -230,6 +233,7 @@ main hr{
 .a-rightSection img{
     width: 100%;
     margin-top: 10vh;
+    /* mix-blend-mode: multiply; */
 } 
 
 
@@ -239,7 +243,7 @@ main hr{
 }
 
 .about-name span{
-    color: rgb(233, 135, 43);
+    color: rgb(124, 66, 13);
 }
 
 .about-para{
