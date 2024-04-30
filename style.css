@@ -5,7 +5,6 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    /* background-color: aqua; */
 }
 
 nav{
@@ -389,17 +388,22 @@ main hr{
    
 }
 
+ @media only screen and (max-width: 750px){
+    .left{
+        display: none;
+    }
+
+    
+ }
+
  @media only screen and (max-width: 500px){
 
     .contact-list ul{
         flex-direction: column;
     }
-    .contact-list ul li{
-        margin: 0.5em;
-    }
 
-    .left{
-        padding-left: 15vw;
+    .contact-list ul li{
+        margin: 1em;
     }
 
     .a-firstSection{
@@ -424,6 +428,14 @@ main hr{
 
     .wc1-img,.wc2-img{
         display: none;
+    }
+    
+    .wc1-img-resp img{
+        width: 100%;
+    }
+
+    .wc2-img-resp img{
+        width: 100%;
     }
 
     .wc1-img-resp,.wc2-img-resp{
